@@ -1,51 +1,28 @@
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 
-// Sample data structure - replace with your actual career data
-const CAREER_DATA = [
-  {
-    id: 1,
-    role: "Senior Frontend Developer",
-    company: "Tech Innovations Inc.",
-    duration: "2021 - Present",
-    description: "Led development of the company's flagship web application using React and TypeScript. Managed a team of 4 developers and implemented CI/CD pipelines that reduced deployment time by 40%.",
-    achievements: [
-      "Improved application performance by 35% through code optimization",
-      "Implemented new design system reducing development time by 25%",
-      "Led migration from Angular to React that improved maintainability"
-    ],
-    technologies: ["React", "TypeScript", "Redux", "Node.js", "AWS"],
-    logo: "/images/tech-innovations-logo.png"
-  },
-  {
-    id: 2,
-    role: "Frontend Developer",
-    company: "Digital Solutions Ltd",
-    duration: "2018 - 2021",
-    description: "Developed responsive web applications for enterprise clients. Collaborated with design and backend teams to deliver robust solutions on tight deadlines.",
-    achievements: [
-      "Built 5 major client projects with 100% on-time delivery",
-      "Reduced bug count by 60% through implementation of testing frameworks",
-      "Awarded 'Employee of the Year' for exceptional performance"
-    ],
-    technologies: ["JavaScript", "React", "CSS3", "HTML5", "Jest"],
-    logo: "/images/digital-solutions-logo.png"
-  },
-  {
-    id: 3,
-    role: "Junior Web Developer",
-    company: "StartUp Ventures",
-    duration: "2016 - 2018",
-    description: "Assisted in building MVPs for early-stage startups. Gained hands-on experience with various web technologies and agile development practices.",
-    achievements: [
-      "Contributed to 12 successful product launches",
-      "Built responsive interfaces for mobile and desktop platforms",
-      "Optimized website load times by 50% through improved asset management"
-    ],
-    technologies: ["JavaScript", "HTML", "CSS", "jQuery", "Bootstrap"],
-    logo: "/images/startup-ventures-logo.png"
-  }
-];
+
+
+  const CAREER_DATA = [
+    
+    {
+      id: 2,
+      role: "MERN Stack Developer",
+      company: "Brototype Bootcamp, Calicut, Kerala",
+      duration: "January 2024 - March 2025",
+      description: "Hands-on experience in full-stack web development using the MERN stack. Building scalable applications, mastering frontend and backend technologies, and working on real-world projects to gain industry-level expertise."
+    },
+    {
+      id: 1,
+      role: "BBA Student",
+      company: "Suresh Gyan Vihar University, Jaipur, Rajasthan",
+      duration: "2022 - Present",
+      description: "Pursuing a Bachelor of Business Administration (BBA) degree with a focus on business management, finance, and entrepreneurship. Engaging in projects and research to develop analytical and leadership skills."
+    },
+
+  ];
+  
+
 
 const TimelineItem = ({ item, index, isEven, isInView }) => {
   const cardRef = useRef(null);
@@ -82,7 +59,7 @@ const TimelineItem = ({ item, index, isEven, isInView }) => {
       }
     }
   };
-
+    console.log(motion)
   return (
     <div className="relative">
       {/* Mobile timeline design (stacked vertically) */}
