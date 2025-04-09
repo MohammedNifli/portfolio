@@ -219,7 +219,7 @@ const CareerTimeline = () => {
             </motion.span>
           </div>
           
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">My Career Journey</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">Career Journey</h2>
           
           <div className="relative">
             <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto mb-8"></div>
