@@ -52,7 +52,7 @@ export const PROJECTS = [
   {
     title: "Scheduler",
     image: scheduler,
-    link_live:"#",
+    link_live:"https://scheduler-new-sooty.vercel.app/",
     source:"https://github.com/MohammedNifli/Scheduler",
     description:
       "A meeting scheduling platform designed for seamless appointment management, allowing users to create, assign, and track meetings with integrated calendar support.",
